@@ -1,0 +1,91 @@
+.container4 {
+    width: 80%;
+    border-radius: 13px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(128, 128, 128, 0.277);
+    text-decoration: none;
+}
+
+.container5 {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.title {
+    padding: 20px 0px;
+    border-bottom: 1px solid grey;
+    font-weight: bold;
+    font-size: 26px;
+    color: rgb(30, 177, 179);
+}
+
+.container4.body {
+    padding: 10px 0px;
+    border-bottom: 1px solid grey;
+    font-style: italic;
+    color: black;
+
+}
+
+.date {
+    padding: 10px 0px;
+
+    color: rgb(33, 155, 157);
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+}
+
+.container4:hover {
+    background-color: rgba(8, 245, 249, 0.23);
+}
+
+#link {
+    text-decoration: none;
+    color: rgb(33, 155, 157);
+}
+
+#link:hover {
+    color: rgb(0, 0, 0);
+}
+
+.addpost {
+    width: 150px;
+    background-color: rgba(30, 142, 142, 0.692);
+    color: black;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    text-decoration-line: none;
+}
+
+.addpost:hover {
+    background-color: rgba(0, 255, 255, 0.764);
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+.rowtop {
+    margin-top: 70px;
+}
+
+@media only screen and (max-width: 600px) {
+    .addpost {
+        bottom: 70px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .addpost {
+        bottom: 70px;
+        right: 50px;
+    }
+}

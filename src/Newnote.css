@@ -1,0 +1,76 @@
+.inputz {
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.356);
+    padding: 10px 0;
+    border: none;
+    margin: 20px 0;
+    cursor: auto;
+
+}
+
+.formz {
+    margin-left: 240px;
+}
+
+.inputz::placeholder {
+    padding-left: 8px;
+}
+
+.textarea {
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.356);
+    border: none;
+    cursor: auto;
+}
+
+.textarea::placeholder {
+    padding-left: 8px;
+}
+
+@media only screen and (min-width: 280px) and (max-width:480px) {
+    .formz {
+        margin-left: 70px;
+    }
+
+    .rowtop1 {
+        margin-top: 100px;
+    }
+
+    .btnsubmit {
+        width: 100px !important;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width:1024px) {
+    .formz {
+        margin-left: 100px;
+    }
+
+    .rowtop1 {
+        margin-top: 100px;
+    }
+
+    .btnsubmit {
+        width: 100px !important;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .formz {
+        margin-left: 130px;
+    }
+
+    .rowtop1 {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .formz {
+        margin-left: 170px;
+    }
+
+    .rowtop1 {
+        margin-top: 100px;
+    }
+}

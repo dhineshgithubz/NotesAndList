@@ -1,0 +1,30 @@
+.searchinput {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(128, 128, 128, 0.345);
+    padding: 10px 0;
+}
+
+.searchinput::placeholder {
+    padding-left: 40px;
+}
+
+.iconsearch {
+    position: absolute;
+    left: 0;
+    top: 65%;
+    transform: translateY(-50%);
+    fill: #a72222;
+    font-size: 40px;
+}
+
+.borders {
+    position: relative;
+}
+
+input:not(:placeholder-shown)+.iconsearch {
+    display: none;
+}

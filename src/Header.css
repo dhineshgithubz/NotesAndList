@@ -1,0 +1,121 @@
+.bg {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+
+}
+
+.icon1 {
+    font-size: 26px;
+    cursor: pointer;
+    color: aqua;
+        text-decoration-line: none;
+  
+}
+
+
+.icon2 {
+    font-size: 26px;
+    cursor: pointer;
+    color: rgb(244, 31, 99);
+    text-decoration-line: none;
+}
+
+.icon1.line {
+        text-decoration-line: underline;
+    text-decoration-color: aqua;
+        text-decoration-thickness: 4px;
+            text-underline-offset: 10px;
+}
+
+.icon2.line {
+    text-decoration-line: underline;
+    text-decoration-color: rgb(244, 31, 99);
+    text-underline-offset: 10px;
+    text-decoration-thickness: 4px;
+}
+
+.icon1:hover {
+    color: aqua;
+}
+
+.icon2:hover {
+    color: rgb(244, 31, 99);
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: rgb(244, 31, 99);
+}
+
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    top: 39.5px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(244, 31, 99);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.hover-underline-animation2 {
+    display: inline-block;
+    position: relative;
+    color: aqua;
+}
+
+.hover-underline-animation2:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    top: 39.5px;
+    bottom: 0;
+    left: 0;
+    background-color: aqua;
+    ;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.hover-underline-animation2:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+@media only screen and (max-width:380px) {
+    .xsMedia {
+        font-size: 20px;
+    }
+
+    .hover-underline-animation:after {
+
+        height: 2px;
+        top: 31.5px;
+        bottom: 0;
+        left: 0;
+
+    }
+
+    .hover-underline-animation2:after {
+
+        height: 2px;
+        top: 31.5px;
+        bottom: 0;
+        left: 0;
+
+    }
+}

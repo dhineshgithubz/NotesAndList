@@ -1,0 +1,108 @@
+.inputz {
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.356);
+    padding: 10px 0;
+    border: none;
+    margin: 20px 0;
+    cursor: auto;
+
+}
+
+.inputz::placeholder {
+    padding-left: 8px;
+}
+
+.textarea {
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.356);
+    border: none;
+    cursor: auto;
+}
+
+.textarea::placeholder {
+    padding-left: 8px;
+}
+
+.rowtop {
+    margin-top: 70px;
+}
+
+.editform {
+    margin-left: 140px;
+}
+
+.mb {
+    margin-bottom: -10px;
+    color: rgb(30, 177, 179);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.mb2 {
+    color: rgb(30, 177, 179);
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 9px;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .editform {
+        margin-left: 70px;
+    }
+
+    .editbtn {
+        width: 100px !important;
+    }
+}
+
+@media only screen and (min-width:480px) and (max-width:576px) {
+    .editform {
+        margin-left: 100px;
+    }
+
+    .editbtn {
+        width: 100px !important;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:640px) {
+    .editform {
+        margin-left: 130px;
+    }
+
+    .editbtn {
+        width: 100px !important;
+    }
+}
+
+@media only screen and (min-width:641px) and (max-width:767px) {
+    .editform {
+        margin-left: 150px;
+    }
+
+    .editbtn {
+        width: 100px !important;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .editform {
+        margin-left: 90px;
+    }
+
+    .editbtn {
+        width: 100px !important;
+    }
+}
+
+@media only screen and (min-width:1025px) {
+    .editform {
+        margin-left: 90px;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .editform {
+        margin-left: 50px;
+    }
+}
