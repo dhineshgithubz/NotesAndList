@@ -7,11 +7,11 @@ const EditNote = ({ editTitle, editBody, setEdittitle, setEditbody, editNotes, n
     const notes = note.find(note => (note.id).toString() === id);
 
     useEffect(() => {
-        if (note) {
+        if (notes) {
             setEdittitle(notes.title);
             setEditbody(notes.body);
         }
-    }, [note]
+    }, [notes,setEdittitle,setEditbody,notes.title,notes.body]
     )
 
     return (
