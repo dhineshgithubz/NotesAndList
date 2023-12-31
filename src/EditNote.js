@@ -11,7 +11,7 @@ const EditNote = ({ editTitle, editBody, setEdittitle, setEditbody, editNotes, n
             setEdittitle(notes.title);
             setEditbody(notes.body);
         }
-    }, [note, setEdittitle, setEditbody]
+    }, [note]
     )
 
     return (
